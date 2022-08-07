@@ -29,7 +29,8 @@ import {
     Tag,
     Tree,
     Select,
-    Option
+    Option,
+    Cascader
   
 } from 'element-ui'
 
@@ -59,7 +60,8 @@ Vue.use(Dialog)
 Vue.use(Tag),
 Vue.use(Tree),
 Vue.use(Select),
-Vue.use(Option)
+Vue.use(Option),
+Vue.use(Cascader)
 
 
 // 全局挂载到自定义属性 $message
