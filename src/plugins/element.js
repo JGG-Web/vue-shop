@@ -33,7 +33,9 @@ import {
     Cascader,
     Alert,
     Tabs,
-    TabPane
+    TabPane,
+    Step,
+    Steps
   
 } from 'element-ui'
 
@@ -67,7 +69,9 @@ Vue.use(Option),
 Vue.use(Cascader),
 Vue.use(Alert),
 Vue.use(Tabs),
-Vue.use(TabPane)
+Vue.use(TabPane),
+Vue.use(Step),
+Vue.use(Steps)
 
 
 // 全局挂载到自定义属性 $message
