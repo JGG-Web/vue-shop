@@ -71,7 +71,7 @@ Vue.use(Alert),
 Vue.use(Tabs),
 Vue.use(TabPane),
 Vue.use(Step),
-Vue.use(Steps)
+Vue.use(Steps),
 
 
 // 全局挂载到自定义属性 $message
